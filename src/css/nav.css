@@ -1,0 +1,23 @@
+nav a {
+    text-decoration: none;
+    padding: 1em;
+    background-color: lightcyan;
+    border-radius: 1.5em;
+    display: flex;
+    justify-content: center;
+    margin: 0.2em;
+    color: black;
+}
+
+nav a:hover {
+    color: lightcyan;
+    background-color: black;
+}
+
+nav {
+    text-align: center;
+    padding-top: 2em;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}

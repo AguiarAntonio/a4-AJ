@@ -1,0 +1,33 @@
+body {
+    background: lightgray;
+    color: black;
+}
+
+form {
+    text-align: center;
+}
+
+.myName {
+    text-align: center;
+}
+
+#assignment {
+    text-align: center;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    border-spacing: 0;
+}
+
+th, tr{
+    border: 2px solid lightcyan;
+    width: 1em;
+    border-collapse: collapse;
+}
+
+td, th {
+    width: 4em;
+    padding: 0.5em;
+}
