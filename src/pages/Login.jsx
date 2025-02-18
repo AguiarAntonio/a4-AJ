@@ -1,4 +1,5 @@
 import NavBar from "../component/NavBar.jsx";
+import {useEffect} from "react";
 
 
 function Login() {
@@ -49,6 +50,29 @@ function Login() {
         console.log(username)
         console.log(password)
     }
+
+    function showLoginForm() {
+        document.getElementById("loginForm").style.display = 'block';
+        document.getElementById('logoutButton').style.display = 'none';
+    }
+
+    function showLogoutButton() {
+        document.getElementById("loginForm").style.display = 'none';
+        document.getElementById('logoutButton').style.display = 'block';
+    }
+
+
+    // Clean up the event listener when the component unmounts
+    useEffect(() => {
+
+        // Listen for the 'load' event on the window object
+        window.addEventListener('load', showLoginForm);
+
+        // Clean up the event listener when the component unmounts
+        return () => {
+            window.removeEventListener('load', showLoginForm);
+        };
+    }, []);
 
     return (
         <>
