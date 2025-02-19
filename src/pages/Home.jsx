@@ -92,7 +92,7 @@ function Home() {
         <>
             <NavBar/>
             <h1 className="myName">AJ Aguiar</h1>
-            <h1 id="assignment">CS4241 Assignment 3</h1>
+            <h1 id="assignment">CS4241 Assignment 4</h1>
             <form id="theForm">
                 <label htmlFor="favGame">Favorite Game: </label>
                 <input type="text" id="favGame" name="favGame" placeholder="type fave game here"/>

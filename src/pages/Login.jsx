@@ -78,7 +78,7 @@ function Login() {
         <>
             <NavBar/>
             <h1 className="myName">AJ Aguiar</h1>
-            <h1 id="assignment">CS4241 Assignment 3</h1>
+            <h1 id="assignment">CS4241 Assignment 4</h1>
             <form id="loginForm">
                 <label htmlFor="username">Username: </label>
                 <input type="text" id="username" name="username" placeholder="Username:"/>

@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      "/api": "https://a4-antonio-aguiar.vercel.app"
+      "/api": "http://localhost:3000"
     }
   }
 })
